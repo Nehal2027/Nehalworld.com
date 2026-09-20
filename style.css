@@ -1,0 +1,22 @@
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Noto Sans Bengali","SolaimanLipi",Arial,sans-serif;background:#eee;color:#fff}
+.topbar{height:68px;display:flex;align-items:center;justify-content:space-between;padding:0 22px;background:linear-gradient(115deg,#06365d,#12c6d6,#07537a);position:sticky;top:0;z-index:10;box-shadow:0 2px 12px #0004}
+.icon-btn{background:none;border:0;color:#fff;font-size:27px;cursor:pointer;padding:8px}
+.brand{font-size:22px;font-weight:700;letter-spacing:.3px}
+.hero{padding:45px 18px 65px;background:radial-gradient(circle at 50% 25%,#1dd9e5 0,#0c718e 35%,#062b56 85%);min-height:495px}
+.banner-card{max-width:920px;min-height:156px;margin:auto;padding:20px 28px;display:flex;align-items:center;gap:25px;background:linear-gradient(100deg,#07144d,#071b5d 45%,#061641);border:1px solid #ffffff22;box-shadow:0 8px 28px #0005}
+.profile{min-width:150px;text-align:center}
+.profile-img{width:76px;height:76px;margin:auto;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,#ddd,#777);border:2px solid #8bd7ff;color:#082f58;font-weight:900;font-size:22px}
+.profile-name{margin-top:8px;font-weight:700}.profile-name span{display:inline-grid;place-items:center;width:17px;height:17px;border-radius:50%;background:#1584ff;color:#fff;font-size:11px}
+.banner-text{text-align:center;flex:1}.banner-text h1{font-size:25px;line-height:1.15;color:#ffd34d}.banner-text strong{color:#e8ff19}.banner-text p{font-size:14px;margin-top:12px;color:#fff}
+.social-row{display:flex;justify-content:center;align-items:center;gap:20px;flex-wrap:wrap;margin-top:70px}
+.social{width:57px;height:57px;border-radius:50%;display:grid;place-items:center;color:#fff;text-decoration:none;font-size:29px;box-shadow:0 4px 12px #0004}.facebook{background:#1877f2}.whatsapp{background:#19c65c}.messenger{background:linear-gradient(135deg,#168cff,#c52df1)}
+.chat-btn{display:flex;align-items:center;gap:8px;padding:13px 19px;border-radius:5px;background:#fff;color:#15513e;text-decoration:none;font-size:19px;font-weight:700;box-shadow:0 4px 12px #0004}
+main{background:#eee;color:#174d3a;padding:55px 16px 75px;min-height:700px;text-align:center}
+main h2{font-size:31px;margin-bottom:70px;font-weight:800}
+.link-list{display:flex;flex-direction:column;align-items:center;gap:58px}.main-link{width:min(92%,420px);padding:16px 14px;border-radius:6px;background:#075b3e;color:#fff;text-decoration:none;font-size:20px;box-shadow:0 5px 12px #0002;transition:.2s}.main-link:hover{transform:translateY(-2px);background:#08724e}
+.info-grid{max-width:850px;margin:80px auto 0;display:grid;gap:18px}.info-grid article,.contact{background:#fff;border-radius:10px;padding:24px;color:#164e3b;box-shadow:0 3px 12px #0001}.info-grid h3,.contact h3{font-size:23px;margin-bottom:8px}.info-grid p{font-size:16px;line-height:1.7}.inner-link{color:#0870aa}
+.contact{max-width:850px;margin:25px auto 0}
+footer{text-align:center;padding:24px;background:#062d25;color:#fff;font-size:14px}
+@media(max-width:600px){.topbar{height:62px}.brand{font-size:19px}.hero{padding:34px 12px 55px}.banner-card{padding:16px 12px;gap:10px;min-height:150px}.profile{min-width:105px}.profile-img{width:65px;height:65px}.profile-name{font-size:13px}.banner-text h1{font-size:18px}.banner-text p{font-size:11px}.social-row{margin-top:48px;gap:14px}.social{width:50px;height:50px;font-size:25px}.chat-btn{font-size:16px;padding:11px 14px}main{padding-top:45px}main h2{font-size:25px;margin-bottom:60px}.link-list{gap:48px}.main-link{font-size:18px;padding:15px 10px}}
